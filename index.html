@@ -8,6 +8,39 @@
         Why your must watch 90 Day Fiancé
     </title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.2/cdn.min.js" defer></script>
+    <style>
+        @keyframes moveGrow {
+            0% {
+                transform: translateX(0) scale(1);
+            }
+            50% {
+                transform: translateX(20px) scale(1.05);
+            }
+            100% {
+                transform: translateX(0) scale(1);
+            }
+        }
+        .move-grow-animation {
+            animation: moveGrow 3s ease-in-out infinite;
+        }
+        @keyframes gradient {
+            0% {
+                background-position: 200%;
+            }
+            100% {
+                background-position: 0%;
+            }
+        }
+        .gradient-text {
+            background: linear-gradient(270deg, rgb(14, 8, 8), rgba(18, 14, 14, 0.7), rgba(28, 18, 18, 0.487));
+            background-size: 400%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient 4s linear infinite;
+        }
+    </style>
 </head>
 
 <body>
@@ -15,7 +48,7 @@
         <div class="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
             <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
                 <div class="sm:max-w-lg">
-                    <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                    <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl move-grow-animation">
                         Why do your must watch 90 Day Fiancé?
                     </h1>
                     <ul class="list-disc mt-6 text-xl text-gray-500">
@@ -86,7 +119,7 @@
     <div class="bg-white">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-                <h2 class="text-2xl font-bold text-gray-900">Big Ed and Rosemarie </h2>
+                <h2 class="text-2xl font-bold text-gray-900 gradient-text">Big Ed and Rosemarie </h2>
 
                 <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
                     <div class="group relative">
@@ -154,7 +187,7 @@
         <div class="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
             <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
                 <div class="sm:max-w-lg">
-                    <h5 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                    <h5 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl move-grow-animation">
                         Ed meets Rose
                     </h5>
                     <ul class="list-disc mt-6 text-xl text-gray-500">
@@ -224,6 +257,129 @@
     </div>
 
     <div class="bg-white">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+                <h2 class="text-2xl font-bold text-gray-900 gradient-text">Ed's challengers on Philippines</h2>
+
+                <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+                    <div class="group relative">
+                        <div
+                            class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                            <img src="https://i.imgur.com/TgH2AvB.png"
+                                alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug."
+                                class="h-full w-full object-cover object-center">
+                        </div>
+                        <h3 class="mt-6 text-sm text-gray-500">
+                            <a role="button">
+                                <span class="absolute inset-0"></span>
+                                <ul class="list-disc mt-6 text-gray-500">
+                                    <li>
+                                        Shorter than Rose.
+                                    </li>
+                                </ul>
+                            </a>
+                        </h3>
+                    </div>
+                    <div class="group relative">
+                        <div
+                            class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                            <img src="https://i.imgur.com/J8xBWWG.png"
+                                alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant."
+                                class="h-full w-full object-cover object-center">
+                        </div>
+
+                        <h3 class="mt-6 text-sm text-gray-500">
+                            <a role="button">
+                                <span class="absolute inset-0"></span>
+                                <ul class="list-disc mt-6 text-gray-500">
+                                    <li>
+                                        Rats and bugs in Rose's house
+                                    </li>
+                                </ul>
+                            </a>
+                        </h3>
+                    </div>
+                    <div class="group relative">
+                        <div
+                            class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                            <img src="https://i.imgur.com/6RKJjKv.png"
+                                alt="Collection of four insulated travel bottles on wooden shelf."
+                                class="h-full w-full object-cover object-center">
+                        </div>
+                        <h3 class="mt-6 text-sm text-gray-500">
+                            <a role="button">
+                                <span class="absolute inset-0"></span>
+                                <ul class="list-disc mt-6 text-gray-500">
+                                    <li>
+                                        Pig farm
+                                    </li>
+                                </ul>
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+                    <div class="group relative">
+                        <div
+                            class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                            <img src="https://i.imgur.com/Go8zMFX.png"
+                                alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant."
+                                class="h-full w-full object-cover object-center">
+                        </div>
+
+                        <h3 class="mt-6 text-sm text-gray-500">
+                            <a role="button">
+                                <span class="absolute inset-0"></span>
+                                <ul class="list-disc mt-6 text-gray-500">
+                                    <li>
+                                        Problems urban development.
+                                    </li>
+                                </ul>
+                            </a>
+                        </h3>
+                    </div>
+                    <div class="group relative">
+                        <div
+                            class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                            <img src="https://i.imgur.com/sJoBn2I.png"
+                                alt="Collection of four insulated travel bottles on wooden shelf."
+                                class="h-full w-full object-cover object-center">
+                        </div>
+                        <h3 class="mt-6 text-sm text-gray-500">
+                            <a role="button">
+                                <span class="absolute inset-0"></span>
+                                <ul class="list-disc mt-6 text-gray-500">
+                                    <li>
+                                        Asking Ed for money
+                                    </li>
+                                </ul>
+                            </a>
+                        </h3>
+                    </div>
+                    <div class="group relative">
+                        <div
+                            class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                            <img src="https://i.imgur.com/MJPNXsn.png"
+                                alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug."
+                                class="h-full w-full object-cover object-center">
+                        </div>
+                        <h3 class="mt-6 text-sm text-gray-500">
+                            <a role="button">
+                                <span class="absolute inset-0"></span>
+                                <ul class="list-disc mt-6 text-gray-500">
+                                    <li>
+                                        She wants more kids
+                                    </li>
+                                </ul>
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white">
         <div class="pt-6">
 
             <!-- Image gallery -->
@@ -253,7 +409,7 @@
 
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-                <h2 class="text-2xl font-bold text-gray-900">What about Big Ed and Rose right now? </h2>
+                <h2 class="text-2xl font-bold text-gray-900 gradient-text">What about Big Ed and Rose right now? </h2>
 
                 <div class="mt-6 space-y-12 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
                     <div class="group relative">
@@ -292,7 +448,7 @@
                                 <span class="absolute inset-0"></span>
                                 <ul class="list-disc mt-6 text-gray-500">
                                     <li>
-                                        28
+                                        28s
                                     </li>
                                     <li>
                                         Lives with her son
